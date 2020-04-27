@@ -4,6 +4,11 @@
 
 PHP >= 7.4
 
+
+## Install
+
+`composer require lennyrouanet/email-validity-checker`
+
 ## Use
 
 ```php
