@@ -16,7 +16,7 @@ use LNY\EmailValidityChecker\EmailValidityChecker;
 use LNY\EmailValidityChecker\Exception\{
 	EmailFormatIsNotValid,
 	EmailDomainFormatIsNotValid,
-	EmailDomainFormatIsTrashMailBoxService,
+	EmailDomainIsTrashMailBoxService,
 	EmailDomainWithoutMxServer,
 };
 
@@ -26,7 +26,7 @@ try {
 	
 	$EmailValidityChecker = new EmailValidityChecker($email);
 
-} catch (EmailFormatIsNotValid | EmailDomainFormatIsNotValid | EmailDomainFormatIsTrashMailBoxService | EmailDomainWithoutMxServer $e) {
+} catch (EmailFormatIsNotValid | EmailDomainFormatIsNotValid | EmailDomainIsTrashMailBoxService | EmailDomainWithoutMxServer $e) {
 	
 	// E-mail domain is not valid
 	
