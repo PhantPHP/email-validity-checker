@@ -7,13 +7,13 @@ PHP >= 7.4
 
 ## Install
 
-`composer require lennyrouanet/email-validity-checker`
+`composer require phant/email-validity-checker`
 
 ## Use
 
 ```php
-use LNY\EmailValidityChecker\EmailValidityChecker;
-use LNY\EmailValidityChecker\Exception\{
+use Phant\EmailValidityChecker\EmailValidityChecker;
+use Phant\EmailValidityChecker\Exception\{
 	EmailFormatIsNotValid,
 	EmailDomainFormatIsNotValid,
 	EmailDomainIsTrashMailBoxService,

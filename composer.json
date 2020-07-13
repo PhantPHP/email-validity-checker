@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LNY\\EmailValidityChecker\\": "src/EmailValidityChecker/"
+            "Phant\\EmailValidityChecker\\": "src/EmailValidityChecker/"
         }
     }
 }

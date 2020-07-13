@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace LNY\EmailValidityChecker;
+namespace Phant\EmailValidityChecker;
 
-use LNY\EmailValidityChecker\TrashMailBoxServiceDomain\{
+use Phant\EmailValidityChecker\TrashMailBoxServiceDomain\{
 	TrashMailBoxServiceDomain,
 };
-use LNY\EmailValidityChecker\Exception\{
+use Phant\EmailValidityChecker\Exception\{
 	EmailFormatIsNotValid,
 	EmailDomainFormatIsNotValid,
 	EmailDomainIsTrashMailBoxService,

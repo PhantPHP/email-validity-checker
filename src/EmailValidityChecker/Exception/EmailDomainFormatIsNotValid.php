@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LNY\EmailValidityChecker\Exception;
+namespace Phant\EmailValidityChecker\Exception;
 
 class EmailDomainFormatIsNotValid extends \Exception
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LNY\EmailValidityChecker\EmailServiceProviderDomain;
+namespace Phant\EmailValidityChecker\EmailServiceProviderDomain;
 
 final class EmailServiceProviderDomain
 {
